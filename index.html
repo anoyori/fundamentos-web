@@ -6,10 +6,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meu Perfil</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+
 </head>
 
 <body>
-    <ul>
+    <ul id="menu">
         <li>  
             <a href="index.html"> HOME </a>
         </li>
@@ -19,25 +21,54 @@
       
     </ul>
     <h1>Sobre mim</h1>
-    <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore architecto vero est ex reprehenderit quos
-        libero tempora non rem aspernatur eveniet nulla veniam, culpa reiciendis voluptatum dolor accusamus quas saepe!
-    </p>
-    <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore architecto vero est ex reprehenderit quos
-        libero tempora non rem aspernatur eveniet nulla veniam, culpa reiciendis voluptatum dolor accusamus quas saepe! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro, possimus! Magni, amet omnis cum nisi reprehenderit, et, fugiat consequatur impedit quidem nesciunt illo odio quas voluptatem ab possimus similique libero?
-    </p>
-    <img src="assets/img/amanda.jpg" alt="Foto do criador desse conteúdo">
-    <h2>Meu vídeo predileto</h2>
-    <iframe 
-    width="560" 
-    height="315" 
-    src="https://www.youtube.com/embed/3_52q0djIrA" 
-    title="YouTube video player" 
-    frameborder="0" 
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-    allowfullscreen>
-    </iframe>
+    <div class="container">
+        <div class="p-30">
+            <p class="justify">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore architecto vero est ex reprehenderit quos
+                libero tempora non rem aspernatur eveniet nulla veniam, culpa reiciendis voluptatum dolor accusamus quas saepe!
+            </p>
+            <p class="justify">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore architecto vero est ex reprehenderit quos
+                libero tempora non rem aspernatur eveniet nulla veniam, culpa reiciendis voluptatum dolor accusamus quas saepe! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro, possimus! Magni, amet omnis cum nisi reprehenderit, et, fugiat consequatur impedit quidem nesciunt illo odio quas voluptatem ab possimus similique libero?
+            </p>
+        </div>
+        <div>
+            <img class="br-50 wh-300 p-30" src="assets/img/amanda.jpg" alt="Foto do criador desse conteúdo">
+        </div>
+
+    </div>
+   
+    <h2 class="center">Meu vídeo predileto</h2>
+    <div class="container mb-50">
+        <iframe 
+        width="560" 
+        height="315" 
+        src="https://www.youtube.com/embed/3_52q0djIrA" 
+        title="YouTube video player" 
+        frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+        allowfullscreen>
+        </iframe>
+    </div>
+
+    <hr>
+    <footer> <!-- Rodapé -->
+        <div class="container">
+            <a href="https://github.com/anoyori" target="_blank"> <!--target abre uma nova aba-->
+                <img class="size-icon p-30" src="assets/img/github.png" alt="Logo Github">
+            </a>
+            <a href="https://www.linkedin.com/in/amanda-noyori/" target="_blank">
+                <img class="size-icon p-30" src="assets/img/linkedin.png" alt="Logo Linkedin">
+            </a>
+            <a href="https://www.instagram.com/anoyori/" target="_blank">
+                <img class="size-icon p-30" src="assets/img/instagram.png" alt="Logo Instagram">
+            </a>
+        </div>
+
+        <p class="center">
+            Todos os direitos reservados: Amanda Noyori &copy <!--&copy símbolo para copyright-->
+        </p>
+    </footer>
 </body>
 
 </html>
